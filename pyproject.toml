@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "finnslib"
-version = "0.1.2"
+version = "0.1.3"
 description = "helper functions for working with codebases. summarize files, functions, and repository trees using the openai api"
 readme = "README.md"
 requires-python = ">=3.9"
