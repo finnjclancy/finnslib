@@ -1,11 +1,45 @@
-dist
-build
-*.egg-info
-__pycache__
-*.pyc
-.venv
-.venvtest
-.venvship
+# build artifacts
+dist/
+build/
+*.egg-info/
+*.egg
+
+# python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# virtual environments
+.venv/
+.venvtest/
+.venvship/
+venv/
+env/
+ENV/
+
+# finnslib cache and output files
 .finnslib_cache.json
 repo_tree.txt
 tree_with_summaries.txt
+*-summary.txt
+demo_*.txt
+
+# ide files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# os files
+.DS_Store
+Thumbs.db
+
+# test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# logs
+*.log
