@@ -1,0 +1,28 @@
+project structure for: /Users/finnclancy/Projects/lib/finnslib
+==================================================
+
+├── finnslib/
+│   ├── repo/
+│   │   ├── __init__.py
+│   │   └── tree.py
+│   ├── summarise/
+│   │   ├── __init__.py
+│   │   ├── file.py
+│   │   ├── function.py
+│   │   └── tree_with_files.py
+│   ├── __init__.py
+│   └── version.py
+├── tests/
+│   ├── conftest.py
+│   ├── test_integration_real_api.py
+│   ├── test_repo_tree.py
+│   ├── test_summarise_file.py
+│   ├── test_summarise_function.py
+│   └── test_tree_with_files.py
+├── LICENSE
+├── main.py
+├── main.py-summary.txt
+├── pyproject.toml
+├── pytest.ini
+├── README.md
+└── tree_with_summaries.txt

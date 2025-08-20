@@ -1,0 +1,98 @@
+{
+  "file::finnslib/repo/__init__.py::gpt-4o-mini::short": {
+    "hash": "420fee69a35d1ea81285385a6f7c9d2921757598a21bbf1a5a0ce6e370ca9f05",
+    "text": "This file imports and exposes functions for managing a repository tree structure."
+  },
+  "file::finnslib/repo/tree.py::gpt-4o-mini::short": {
+    "hash": "7d21d25c94fc60cb3e4597140707c910040588f85c80c488923115417b67080c",
+    "text": "This file generates a structured text representation of a project's directory tree, excluding files and directories specified in a `.gitignore` file."
+  },
+  "file::finnslib/summarise/__init__.py::gpt-4o-mini::short": {
+    "hash": "f791e3a906a1259b3347260bf89fb8f76ceff6ea5750044abf5809eb0ecd8a4b",
+    "text": "This file defines and exports functions for summarizing files, functions, and repository trees."
+  },
+  "file::finnslib/summarise/cache.py::gpt-4o-mini::short": {
+    "hash": "2d09ceefd40b67fa8ee40a5ad1c05e4f01814d7b6180f51bcdb97ed18230db91",
+    "text": "This file manages caching of file and directory summaries using JSON and SHA-256 hashing."
+  },
+  "file::finnslib/summarise/file.py::gpt-4o-mini::short": {
+    "hash": "4878122c6080c00827155ed1a317c4983097a3768f204e2cd68e90ef154b9f8c",
+    "text": "This file summarizes the content of a specified file, providing different levels of detail based on user preference."
+  },
+  "file::finnslib/summarise/function.py::gpt-4o-mini::short": {
+    "hash": "d6aafa3a6d28cfbd658e467bafdd4a1286b8de72dcac4edc35766817d8f392d6",
+    "text": "This file defines a function that summarizes another function's purpose and details from a specified file, using OpenAI's API."
+  },
+  "file::finnslib/summarise/tree_with_files.py::gpt-4o-mini::short": {
+    "hash": "c1506f217f3c17f4f7711e775ffd3fe2e93b745fa415e692dd35af36a5988c54",
+    "text": "This file summarizes the contents of a code repository, generating brief descriptions for files and directories."
+  },
+  "file::finnslib/__init__.py::gpt-4o-mini::short": {
+    "hash": "f332c683e0df4219c39762b2d27fb35e937ef1efa0ee247401c688e25e15be99",
+    "text": "This file imports the version number from a module named \"version.\""
+  },
+  "file::finnslib/version.py::gpt-4o-mini::short": {
+    "hash": "f280312941bbe3b194a249b18e4ad67a3c896b9c8f344b28243957c6879dc53c",
+    "text": "This file defines the version number of a software package as 0.1.1."
+  },
+  "file::tests/conftest.py::gpt-4o-mini::short": {
+    "hash": "a6c5628150b4e4aa0ff7cb82ed1e4626433e6d6a210311a234f0be8d67bc6d83",
+    "text": "This file defines a fake OpenAI client for unit testing and a real client for optional runs."
+  },
+  "file::tests/test_integration_real_api.py::gpt-4o-mini::short": {
+    "hash": "dfd534b8fbb48e70179a872315d6679e1e36600489846a33f9f6cb8882b5f532",
+    "text": "This file tests the summarization of a Python file using an API."
+  },
+  "file::tests/test_repo_tree.py::gpt-4o-mini::short": {
+    "hash": "3bb7a556ad6acd597f7fff0ba562d88a51a96f6c334afde54c75d309cef49b2e",
+    "text": "This file tests a function that summarizes the behavior of another function in a Python script."
+  },
+  "file::tests/test_summarise_file.py::gpt-4o-mini::short": {
+    "hash": "80fa4fef14c40ead04d89a9116c33d361b76ea53df1f7ec7458a4a9eedddc0d8",
+    "text": "This file tests a function that summarizes a Python file's content using a mock OpenAI model."
+  },
+  "file::tests/test_summarise_function.py::gpt-4o-mini::short": {
+    "hash": "3bb7a556ad6acd597f7fff0ba562d88a51a96f6c334afde54c75d309cef49b2e",
+    "text": "This file tests a function that summarizes the behavior of another function in a Python script."
+  },
+  "file::tests/test_tree_with_files.py::gpt-4o-mini::short": {
+    "hash": "798fb029bcfb4d1db6d5cce1a86e3da8997a0a339e2fadc7b7f5c072c7f16b21",
+    "text": "This file tests a function that summarizes a project directory structure while respecting Git ignore rules."
+  },
+  "file::main.py::gpt-4o-mini::short": {
+    "hash": "5d96122e90de0ee973809539628c3e7b0ce7dd711e2d1db708ed2e7aedcdc4c2",
+    "text": "This file summarizes a Python script and its directory structure, generating output files with the results."
+  },
+  "file::main.py-summary.txt::gpt-4o-mini::short": {
+    "hash": "51310ae687be9416bb48ec73cda43ed29eb33471b92f853dd2d482a71202f724",
+    "text": "The script summarizes a Python file and the directory structure of a repository, saving the results to text files."
+  },
+  "file::pyproject.toml::gpt-4o-mini::short": {
+    "hash": "e16094760f95a7a00fc1269b11af7573750435ca561d3992979571997239cd78",
+    "text": "This file configures a Python package named \"finnslib\" with tools for printing repository trees and summarizing code."
+  },
+  "file::pytest.ini::gpt-4o-mini::short": {
+    "hash": "8ed557d87004308b9644c79e4b6241a0ac1a4f1bfe5757a3a50c99290c4d072d",
+    "text": "This file configures pytest to recognize a marker for integration tests."
+  },
+  "dir::finnslib/repo::gpt-4o-mini::short": {
+    "hash": "aa61e886554e2535e00843e3e30500113fff61e46004ed374ca4761d594a9398",
+    "text": "This folder contains code files for a library called \"finnslib\" that helps organize and manage data structures."
+  },
+  "dir::finnslib/summarise::gpt-4o-mini::short": {
+    "hash": "9ec22af50a1d330a016708017e5c74e504b97452be9730dfa0f23e6b1d1495a3",
+    "text": "This folder contains scripts for summarizing data and managing files in a library."
+  },
+  "dir::finnslib::gpt-4o-mini::short": {
+    "hash": "eb0ea3085792143f31ef7a9b848a30942f899e6c6f6cfa38b267759d24cf7c00",
+    "text": "The \"finnslib\" folder contains code files for a Python library, including initialization and version information."
+  },
+  "dir::tests::gpt-4o-mini::short": {
+    "hash": "c1e6239aa6b8a15247af8e4590d737f89064dffd11b8aff649a1b23fc5229316",
+    "text": "The \"tests\" folder contains various test scripts to verify the functionality of the code."
+  },
+  "dir::::gpt-4o-mini::short": {
+    "hash": "fefa24d6be62403e18a5ed054472608f405f2ff576c8880ccdf0a7339a142c78",
+    "text": "This folder contains files for a Python project, including code, configuration, and documentation."
+  }
+}

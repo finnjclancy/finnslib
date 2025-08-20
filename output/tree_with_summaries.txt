@@ -1,0 +1,53 @@
+project structure for: /Users/finnclancy/Projects/lib/finnslib
+==================================================
+
+  This folder contains files for a Python project, including code, configuration, and documentation.
+├── finnslib/
+    The "finnslib" folder contains code files for a Python library, including initialization and version information.
+│   ├── repo/
+│       This folder contains code files for a library called "finnslib" that helps organize and manage data structures.
+│   │   ├── __init__.py
+│   │       This file imports and exposes functions for managing a repository tree structure.
+│   │   └── tree.py
+│   │       This file generates a structured text representation of a project's directory tree, excluding files and directories specified in a `.gitignore` file.
+│   ├── summarise/
+│       This folder contains scripts for summarizing data and managing files in a library.
+│   │   ├── __init__.py
+│   │       This file imports and exposes functions for managing a repository tree structure.
+│   │   ├── cache.py
+│   │       This file manages caching of file and directory summaries using JSON and SHA-256 hashing.
+│   │   ├── file.py
+│   │       This file summarizes the content of a specified file, providing different levels of detail based on user preference.
+│   │   ├── function.py
+│   │       This file defines a function that summarizes another function's purpose and details from a specified file, using OpenAI's API.
+│   │   └── tree_with_files.py
+│   │       This file summarizes the contents of a code repository, generating brief descriptions for files and directories.
+│   ├── __init__.py
+│       This file imports and exposes functions for managing a repository tree structure.
+│   └── version.py
+│       This file defines the version number of a software package as 0.1.1.
+├── tests/
+    The "tests" folder contains various test scripts to verify the functionality of the code.
+│   ├── conftest.py
+│       This file defines a fake OpenAI client for unit testing and a real client for optional runs.
+│   ├── test_integration_real_api.py
+│       This file tests the summarization of a Python file using an API.
+│   ├── test_repo_tree.py
+│       This file tests a function that summarizes the behavior of another function in a Python script.
+│   ├── test_summarise_file.py
+│       This file tests a function that summarizes a Python file's content using a mock OpenAI model.
+│   ├── test_summarise_function.py
+│       This file tests a function that summarizes the behavior of another function in a Python script.
+│   └── test_tree_with_files.py
+│       This file tests a function that summarizes a project directory structure while respecting Git ignore rules.
+├── LICENSE
+├── main.py
+    This file summarizes a Python script and its directory structure, generating output files with the results.
+├── main.py-summary.txt
+    The script summarizes a Python file and the directory structure of a repository, saving the results to text files.
+├── pyproject.toml
+    This file configures a Python package named "finnslib" with tools for printing repository trees and summarizing code.
+├── pytest.ini
+    This file configures pytest to recognize a marker for integration tests.
+├── README.md
+└── repo_tree.txt
