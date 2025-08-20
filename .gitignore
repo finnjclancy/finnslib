@@ -1,0 +1,11 @@
+dist
+build
+*.egg-info
+__pycache__
+*.pyc
+.venv
+.venvtest
+.venvship
+.finnslib_cache.json
+repo_tree.txt
+tree_with_summaries.txt
